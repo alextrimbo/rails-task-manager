@@ -1,4 +1,5 @@
 <h1>Tasks Index</h1>
+<%= link_to 'New Task', new_task_path %>
 <% @tasks.each do |task| %>
   <h2><%= task.name %></h2>
   <p><%= task.detail %></p>
